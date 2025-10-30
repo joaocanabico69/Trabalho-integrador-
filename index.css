@@ -1,0 +1,219 @@
+:root {
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #010103;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    font-size: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--bg);    
+}
+
+selection {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+    background-color: var(--bg);
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.5rm;
+    padding-bottom: 1.5rem;
+}
+
+.navbar a {
+margin: 0 1rem;
+font-size: 1.8rem;
+color: #fff;
+}
+
+.navbar a:hover {
+    color: #d3ad7f;
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+
+}
+
+.icons img {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    width: 40px;
+    height: 40px;    
+}
+
+.btn {
+background: var(--main-color);
+color: #fff;
+padding: 1rem 3rem;
+font-size: 1.7rem;
+cursor: pointer;
+margin-top: 1rem;
+display: inline-block;
+
+}
+
+.btn:hover{
+    letter-spacing: 0.1rem;
+
+}
+
+.home-container {
+    background: url("./imag/capapap.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.home-container section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 60rem;
+
+}
+
+.content h3 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.content p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 1rem 0;
+
+}
+
+.title{
+    font-size: 4rem;
+    color:  var(--main-color);
+    text-align: center;
+    text-transform: uppercase;
+}
+.sobre .row {
+    display: flex;
+    align-items: center;
+    background-color: var(--black);
+    gap: 1.5rem;
+
+}
+
+.sobre .row .content {
+    padding: 2rem;
+}
+
+.sobre .row .content h3{
+    font-size: 3rem;
+    color: #fff;
+
+}
+
+.sobre .row .content p {
+    font-size:  1.6rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height:  1.8;
+}
+
+
+.Menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.Menu .box-container .box {
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+    cursor: pointer;
+}
+
+
+.Menu .box-container .box img {
+    height: 10rem;
+}
+
+.Menu .box-container .box h3 {
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+
+
+.Menu .box-container .box .price {
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+}
+  
+.Menu .box-container .box .price span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.Menu .box-container .box:hover {
+    background-color: #fff;
+}
+
+.Menu .box-container .box:hover>* {
+    color: var(--black);
+
+}
+
+.endereço{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer{
+    text-align: center;
+
+}
+
+.footer .share{
+    padding: 1rem 0;
+}
+.footer .share img{
+    margin: 0.3rem;
+    cursor: pointer;
+    border: radius 50%;
+    padding: 1rem;
+}
