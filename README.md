@@ -1,6 +1,6 @@
 ☕ CAFÉ E UM CHÊRO
 
-Projeto Integrador – 1ª Etapa (Desenvolvimento Web)
+Projeto Integrador – 1ª Etapa 
 
 👥 Integrantes
 
@@ -10,7 +10,7 @@ Franciny - Desenvolvedor
 🎯 Tema e Objetivo
 
 O site CAFÉ E UM CHÊRO foi desenvolvido com o objetivo de fortalecer a presença digital de uma cafeteria local, proporcionando uma experiência acolhedora e visualmente convidativa.
-O foco do projeto é atrair novos clientes, divulgar os produtos, que valoriza o aroma, o sabor e o afeto de desgustar um café.
+O foco do projeto é atrair clientes, divulgar os produtos e implementar um delivery. 
 
 👤 Público-Alvo
 
@@ -18,11 +18,11 @@ Pessoas que apreciam café, ambientes aconchegantes e experiências gastronômic
 
 📄 Páginas Principais
 
-Home: Apresenta a cafeteria, produtos em destaque e promoções.
+Home: Apresenta a cafeteria, produtos e valores.
 
 Sobre: Conta a história e objetivo da marca.
 
-Cardápio: Lista de consumo oferecido
+Cardápio: Lista de consumo oferecida
 
 Contato: localização e redes sociais 
 
@@ -37,19 +37,19 @@ O protótipo foi planejado para refletir a identidade visual do negócio, com fo
 💬 Justificativas de Design
 Cores
 
-Tons terrosos (marrom, creme e bege) foram escolhidos para transmitir aconchego, naturalidade e o calor do café recém-passado.
+Tons terrosos (marrom, creme e bege) foram escolhidos para transmitir aconchego, naturalidade e o calor do café.
 
-O contraste suave facilita a leitura e harmoniza com a proposta da marca.
+O contraste suave facilita a leitura e harmoniza com a marca.
 
 Tipografia
 
-Montserrat (para títulos): transmite modernidade e sofisticação.
+Roboto (para títulos): transmite modernidade e sofisticação.
 
-Open Sans (para textos): garante legibilidade e leveza.
+sans serif (para textos): garante legibilidade e leveza.
 
 Ícones e Botões
 
-Ícones minimalistas em estilo flat, representando xícaras, grãos e utensílios de café.
+Ícones minimalistas em estilo flat, representando: lupa de pesquisa e carrinho.
 
 Botões arredondados com animação hover, transmitindo acessibilidade e fluidez visual.
 
