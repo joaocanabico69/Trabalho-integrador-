@@ -1,11 +1,11 @@
 ☕ CAFÉ E UM CHÊRO
 
-Projeto Integrador – 1ª Etapa 
+Projeto Integrador  
 
 👥 Integrantes
 
 João Vitor – Designer 
-Franciny - Desenvolvedor
+Franciny - Desenvolvedora
 
 🎯 Tema e Objetivo
 
@@ -26,11 +26,13 @@ Cardápio: Lista de consumo oferecida
 
 Contato: localização e redes sociais 
 
-Carrinho: (para versão futura) Resumo de pedidos e valores online.
+Carrinho: para versão futura com resumo de pedidos e valores online.
 
 🎨 Protótipo no Figma
 
 🔗 Acesse o protótipo completo no Figma
+
+https://www.figma.com/design/IgwP0aHFs1sQx6bR3TfBfG/Caf%C3%A9-e-um-ch%C3%AAro?node-id=0-1&p=f&t=DSCCexfrlJO8Werd-0
 
 O protótipo foi planejado para refletir a identidade visual do negócio, com foco em clareza, aconchego e autenticidade.
 
