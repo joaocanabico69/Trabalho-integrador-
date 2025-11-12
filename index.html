@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css"> <!-- MANTENHA SEU CAMINHO ORIGINAL -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>CAFÉ E UM CHÊRO</title>
 </head>
 
@@ -16,120 +14,74 @@
     <header class="header">
         <section>
             <a href="#" class="logotipo">
-                <img src="./imag/logo11.png">
+                <img src="./imag/logo11.png" alt="Café e um Chêro">
             </a>
 
             <nav class="navbar">
                 <a href="#home">home</a>
-                <a href="#Menu">menu</a>
+                <a href="#menu">menu</a>
                 <a href="#carrinho">carrinho</a>
                 <a href="#sobre">sobre</a>
             </nav>
 
             <div class="icons">
-                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png"
-                    alt="search--v1" />
-                <img width="30" height="30" src="https://img.icons8.com/windows/30/ffffff/shopping-cart.png"
-                    alt="shopping-cart" />
+                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png" alt="search--v1"/>
+                <img width="30" height="30" src="https://img.icons8.com/windows/30/ffffff/shopping-cart.png" alt="shopping-cart"/>
             </div>
         </section>
     </header>
 
-<div class="home-container">
-    <section id="#home">
-        <div class="content">
-            <h3>CAFETERIA CAFÉ E UM CHÊRO</h3>
-            <h3>"Por trás de uma pessoa feliz, tem sempre uma xícara de café."</h3>
-            <a href="#" class="btn">Pegue o seu agora </a>
+    <div class="home-container">
+        <section id="home">
+            <div class="content">
+                <h3>CAFETERIA CAFÉ E UM CHÊRO</h3>
+                <h3>"Por trás de uma pessoa feliz, tem sempre uma xícara de café."</h3>
+                <a href="#" class="btn">Pegue o seu agora</a>
+            </div>
+        </section>
+    </div>
+
+    <section class="sobre" id="sobre">
+        <h2 class="title">sobre nós</h2>
+        <div class="row">
+            <div class="container-img">
+                <img src="./imag/xicara-de-cafe.jpg" alt="sobre nós"> 
+            </div>
+            <div class="content">
+                <h3>"Aqui, cada xícara é uma pausa para a alma."</h3>
+                <p>A cafeteria "Café e um Chêro" é mais do que um simples local para consumir café. Ela desempenha um papel fundamental na vida urbana, funcionando como ponto de encontro, espaços de trabalho e local para momentos de descanso.</p>
+                <p>Ao abrir a porta de nossa cafeteria, você é recebido por algo que vai além da visão: o cheiro. É o aroma acolhedor de grãos recém-moídos, o vapor doce e convidativo do leite quente, e a fragrância inconfundível de café fresco se misturando no ar. É a sinfonia invisível da nossa paixão.</p>
+                <a href="#" class="btn">saiba mais</a>
+            </div>
         </div>
     </section>
-</div>
-<section class="sobre" id="sobre">
-<h2 class="title">sobre nós</h2>
-<div class="row">
-<div class="container-img">
-    <img src="./imag/xicara-de-cafe.jpg" alt="sobre nós"> 
-    
-</div>
-<div class="content">
-    <h3> "Aqui, cada xícara é uma pausa para a alma."</h3>
-    <p>A cafeteria " Café e um Chêro" é mais do que um  simples local para consumir café. Ela desempenha um papel fundamental na vida urbana, funcionando como ponto de encontro, espaços de trabalho e local  para momentos de descanso.</p>
-    <p>Ao abrir a porta de nossa cafeteria, você é recebido por algo que vai além da visão: o cheiro. É o aroma acolhedor de grãos recém-moídos, o vapor doce e convidativo do leite quente, e a fragrância inconfundível de café fresco se misturando no ar. É a sinfonia invisível da nossa paixão.
-Este cheiro é mais do que uma promessa; é a essência de cada xícara. Ele desperta memórias de conversas longas e dias perfeitos, convidando você a desacelerar e a se permitir um momento de conforto.</p>
-    <a href="#" class="btn">saiba mais</a>
-</div>
 
-</div>
-</section>
+    <section class="menu" id="menu">
+        <h2 class="title">Nosso Menu</h2>
+        <div class="box-container">
+            <!-- Seus produtos aqui -->
+            <div class="box">
+                <img src="./imag/cafepretto.jpg" alt="café tradicional">
+                <h3>café tradicional</h3>
+                <div class="price">R$10,50<span>R$12,99</span></div>
+                <a href="#" class="btn">Adicione ao carrinho</a>
+            </div>
+            <!-- ... outros produtos ... -->
+        </div>
+    </section>
 
-<section  class="Menu" id="Menu">
-    <h2 class="title">Nosso Menu</h2>
+    <section class="endereco" id="endereco">
+        <h2 class="title">Nosso endereço</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245604.77725340475!2d-48.23453314698151!3d-15.87893789736554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3a3690ef046f%3A0x25140488a5d0459b!2zQ2Fmw6kgZSB1bSBDaMOqcm8!5e0!3m2!1spt-BR!2sbr!4v1760642014657!5m2!1spt-BR!2sbr" 
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
 
-    <div class="box-container">
-        <div class="box">
-            <img src="./imag/cafepretto.jpg" alt="item-1">
-            <h3> café tradicional </h3>
-            <div class="price" R$12,99 span>R$10,50</span></div>
-            <a href="#" class="btn">Adicione ao carrinho</a>
+    <section class="footer">
+        <div class="share">
+            <img width="30" height="30" src="https://img.icons8.com/color/30/instagram-new--v1.png" alt="Instagram"/>
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/tiktok--v1.png" alt="TikTok"/>
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/facebook--v1.png" alt="Facebook"/>
         </div>
-        <div class="box">
-            <img src="./imag/capufff.jpg" alt="item-2">
-            <h3> cappuccino</h3>
-            <div class="price" R$16,99 span>R$16,99</span></div>
-            <a href="#" class="btn">Adicione ao carrinho</a>
-        </div>
-        <div class="box">
-            <img src="./imag/brigadeiro de cafe.jpg" alt="item-3">
-            <h3>café gelado com paçoca</h3>
-            <div class="price" R$8,99 span>R$15,99</span></div>
-            <a href="#" class="btn">Adicione ao carrinho</a>
-        </div>
-        <div class="box">
-            <img src="./imag/pao de queijo.jpg" alt="item-4">
-            <h3> pão de queijo</h3>
-            <div class="price" R$4,99 span>R$7,99</span></div>
-            <a href="#" class="btn">Adicione ao carrinho</a>
-        </div>
-        <div class="box">
-            <img src="./imag/paoddd.jpg" alt="item-5">
-            <h3> croissant </h3>
-            <div class="price" R$9,99 span>R$12,99</span></div>
-            <a href="#" class="btn">Adicione ao carrinho</a>
-        </div>
-        <div class="box">
-            <img src="./imag/browniwejd.jpg" alt="item-6">
-            <h3>brownie</h3>
-            <div class="price"R$15,99 span>R$20,99</span></div>
-            <a href="#" class="btn">Adicione ao carrinho</a>
-        </div>
-        <div class="box">
-            <img src="./imag/biscoito.jpg" alt="item-7">
-            <h3>Tapioca </h3>
-            <div class="price" R$12,99 span>R$20,99</span></div>
-            <a href="#" class="btn">Adicione ao carrinho</a>
-        </div>
-        <div class="box">
-            <img src="./imag/chocolate.jpg" alt="item-8">
-            <h3> Fatia de bolo de chocolate</h3>
-            <div class="price" R$12,99 span>R$18,99</span></div>
-            <a href="#" class="btn">Adicione ao carrinho</a>
-        </div>
-        </div>
-</section>
-
-<section class="endereço" id="endereço">
-    <h2 class="title">Nosso endereço</h2>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245604.77725340475!2d-48.23453314698151!3d-15.87893789736554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3a3690ef046f%3A0x25140488a5d0459b!2zQ2Fmw6kgZSB1bSBDaMOqcm8!5e0!3m2!1spt-BR!2sbr!4v1760642014657!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-</section>
-
-<section class="footer">
-    <div class="share">
-        <img width="30" height="30" src="https://img.icons8.com/color/30/instagram-new--v1.png" alt="instagram-new--v1"/>
-        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/tiktok--v1.png" alt="tiktok--v1"/>
-      <img width="50" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/facebook--v1.png" alt="facebook--v1"/>
-
-</section>
+    </section>
 </body>
-
 </html>
