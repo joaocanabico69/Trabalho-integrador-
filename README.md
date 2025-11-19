@@ -1,68 +1,114 @@
-☕ CAFÉ E UM CHÊRO
+# 📌 Projeto Integrador — Cafeteria *Café e um Chêro*
 
-Projeto Integrador  
+Este projeto foi desenvolvido como parte do **Projeto Integrador**, com o objetivo de criar o site institucional oficial da cafeteria real **“Café e um Chêro”**, incluindo identidade visual, protótipo, desenvolvimento, publicação e documentação técnica.
 
-👥 Integrantes
+---
 
-João Vitor – Designer 
-Franciny - Desenvolvedora
+## 👥 Integrantes da Dupla
+- **João Vitor Rodrigues** — Designer e Desenvolvimento Front-End  
+- **Franciny** — Organização, Conteúdo e Estrutura do Projeto
 
-🎯 Tema e Objetivo
+---
 
-O site CAFÉ E UM CHÊRO foi desenvolvido com o objetivo de fortalecer a presença digital de uma cafeteria local, proporcionando uma experiência acolhedora e visualmente convidativa.
-O foco do projeto é atrair clientes, divulgar os produtos e implementar um delivery. 
+## ☕ Sobre o Negócio  
+O **Café e um Chêro** é uma **cafeteria real**, reconhecida por proporcionar uma experiência sensorial única.  
+A proposta do negócio é unir aroma, sabor e afeto em um ambiente acolhedor, trazendo:
 
-👤 Público-Alvo
+- Cafés especiais  
+- Bebidas artesanais  
+- Pães, bolos e salgados  
+- Atmosfera tranquila e convidativa  
+- Identidade regional marcada pelo “chêro”, símbolo de carinho e proximidade  
 
-Pessoas que apreciam café, ambientes aconchegantes e experiências gastronômicas afetivas. O público inclui desde frequentadores locais até visitantes que buscam um espaço para relaxar, estudar ou socializar.
+O site foi criado para fortalecer a presença digital da cafeteria, apresentar cardápio, comunicação visual e localização.
 
-📄 Páginas Principais
+---
 
-Home: Apresenta a cafeteria, produtos e valores.
+# 🎨 Parte 1 — Planejamento e Wireframe
+Foram definidos:
 
-Sobre: Conta a história e objetivo da marca.
+- Identidade e posicionamento da cafeteria  
+- Paleta de cores e estilo visual  
+- Público-alvo  
+- Protótipo completo no Figma  
+- Layout e estrutura das seções
 
-Cardápio: Lista de consumo oferecida
-
-Contato: localização e redes sociais 
-
-Carrinho: para versão futura com resumo de pedidos e valores online.
-
-🎨 Protótipo no Figma
-
-🔗 Acesse o protótipo completo no Figma
-
+**Link do Figma (Wireframe):**  
 https://www.figma.com/design/IgwP0aHFs1sQx6bR3TfBfG/Caf%C3%A9-e-um-ch%C3%AAro?node-id=0-1&p=f&t=DSCCexfrlJO8Werd-0
 
-O protótipo foi planejado para refletir a identidade visual do negócio, com foco em clareza, aconchego e autenticidade.
+---
 
-💬 Justificativas de Design
-Cores
+# 💻 Parte 2 — Desenvolvimento do Site
 
-Tons terrosos (marrom, creme e bege) foram escolhidos para transmitir aconchego, naturalidade e o calor do café.
+### Tecnologias utilizadas:
+- HTML5  
+- CSS3  
+- Google Fonts  
+- Ícones Icons8  
+- Git e GitHub
 
-O contraste suave facilita a leitura e harmoniza com a marca.
+### Seções implementadas:
+- Home  
+- Menu  
+- Sobre Nós  
+- Localização (Google Maps)  
+- Footer com redes sociais  
+- Navegação por âncoras
 
-Tipografia
+---
 
-Roboto (para títulos): transmite modernidade e sofisticação.
+# 🌐 Parte 3 — Publicação e Otimização
 
-sans serif (para textos): garante legibilidade e leveza.
+## ✔️ Publicação
+O site será hospedado em **GitHub Pages**.  
+Assim que o link for gerado, será adicionado abaixo:
 
-Ícones e Botões
+🔗 **Link do site publicado:**  
+*(Adicione aqui depois do deploy)*
 
-Ícones minimalistas em estilo flat, representando: lupa de pesquisa e carrinho.
+---
 
-Botões arredondados com animação hover, transmitindo acessibilidade e fluidez visual.
+## 🧹 Otimizações Implementadas
+- Organização da estrutura do projeto  
+- Correção de caminhos e links internos  
+- Ajustes de IDs nas âncoras  
+- Otimização de carregamento  
+- Preparação para versão final no GitHub Pages  
 
-Layout
+---
 
-Estrutura centrada e espaçada, com destaque para o produto principal.
+# 📁 Estrutura Final do Projeto
 
-Cabeçalho fixo facilita navegação; rodapé inclui informações de contato e redes sociais.
+```
+Trabalho-integrador-/
+│
+├── index.html
+├── css/
+│   └── index.css
+├── imag/
+│   └── (imagens usadas no site)
+├── docs/
+│   └── rubrica TRABALHO INTEGRADOR.docx
+└── README.md
+```
 
-Usabilidade
+---
 
-Navegação simples e intuitiva com foco na experiência do usuário.
+# 🧪 Testes Realizados
 
-Hierarquia visual clara: títulos grandes, descrições médias e botões de ação destacados.
+### ✔️ Navegadores
+- Google Chrome  
+- Microsoft Edge  
+
+### ✔️ Responsividade
+Testado nas resoluções:
+- 360px (mobile)
+- 375px (iPhone)
+- 768px (tablet)
+- 1280px (notebook)
+- 1920px (desktop)
+
+### ✔️ Teste prático
+- Links funcionando  
+- Navegação suave  
+- Imagens carregand
