@@ -225,3 +225,31 @@ section {
     border-radius: 50%; /* corrigi 'border: radius' */
     padding: 1rem;
 }
+
+/* RESPONSIVIDADE PARA CELULARES E TABLETS */
+@media (max-width: 900px) {
+
+    /* Seção SOBRE fica em coluna no mobile */
+    .sobre .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre .row img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sobre .row .content {
+        padding: 1rem;
+    }
+
+    /* Ajusta tamanho das fontes para telas menores */
+    .sobre .row .content h3 {
+        font-size: 2.4rem;
+    }
+
+    .sobre .row .content p {
+        font-size: 1.4rem;
+    }
+}
