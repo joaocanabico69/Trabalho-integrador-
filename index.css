@@ -5,7 +5,6 @@
     --border: 0.1rem solid rgba(255, 255, 255, 0.3);
     font-size: 10px;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -15,36 +14,16 @@
     text-transform: capitalize;
     transition: 0.2s linear;
     font-family: "Roboto", sans-serif;
-    box-sizing: border-box;
 }
 
 body {
-    background-color: var(--bg);
-    font-size: 1.6rem;
-    line-height: 1.6;
-}
-
-/* Skip Link para Acessibilidade */
-.skip-link {
-    position: absolute;
-    top: -4rem;
-    left: 1rem;
-    background: var(--main-color);
-    color: white;
-    padding: 1rem;
-    text-decoration: none;
-    z-index: 1000;
-    border-radius: 0.4rem;
-}
-
-.skip-link:focus {
-    top: 1rem;
+    background-color: var(--bg);    
 }
 
 section {
     padding: 3rem 2rem;
     margin: 0 auto;
-    max-width: 120rem;
+    max-width: 1200px;
 }
 
 .header {
@@ -54,479 +33,193 @@ section {
     right: 0;
     z-index: 99;
     border-bottom: var(--border);
-    background-color: var(--bg);
+    background-color: black;
 }
 
 .header section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 2rem;
-}
-
-.logotipo img {
-    max-width: 12rem;
-    height: auto;
-}
-
-.navbar {
-    display: flex;
-    gap: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .navbar a {
-    font-size: 1.8rem;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border-radius: 0.4rem;
+margin: 0 1rem;
+font-size: 1.8rem;
+color: #fff;
 }
 
-.navbar a:hover,
-.navbar a:focus {
+.navbar a:hover {
     color: #d3ad7f;
     border-bottom: 0.1rem solid var(--main-color);
     padding-bottom: 0.5rem;
-    background: rgba(255, 255, 255, 0.1);
+    font-size: 2rem;
+
 }
 
-.icons {
-    display: flex;
-    gap: 1rem;
-}
-
-.icon-btn {
-    background: none;
+.icons img {
+    margin: 1rem;
     cursor: pointer;
-    padding: 0.5rem;
-    border-radius: 0.4rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.icon-btn:hover,
-.icon-btn:focus {
-    background: rgba(255, 255, 255, 0.1);
-    transform: scale(1.1);
+.icons img:hover {
+    width: 40px;
+    height: 40px;    
 }
-
-/* Menu Hamburguer com CSS puro */
-.menu-toggle {
-    display: none;
-}
-
-.menu-button {
-    display: none;
-    flex-direction: column;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0.5rem;
-    gap: 0.4rem;
-}
-
-.menu-button span {
-    width: 2.5rem;
-    height: 0.3rem;
-    background: #fff;
-    transition: 0.3s;
-}
+/* abaixo será a home */
 
 .btn {
-    background: var(--main-color);
-    color: #fff;
-    padding: 1.2rem 3rem;
-    font-size: 1.7rem;
-    cursor: pointer;
-    margin-top: 1rem;
-    display: inline-block;
-    border: 0.2rem solid transparent;
-    border-radius: 0.5rem;
-    text-align: center;
+background: var(--main-color);
+color: #fff;
+padding: 1rem 3rem;
+font-size: 1.7rem;
+cursor: pointer;
+margin-top: 1rem;
+display: inline-block;
+
 }
 
-.btn:hover,
-.btn:focus {
-    background: #b89465;
-    border-color: #fff;
-    transform: translateY(-0.2rem);
-    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.3);
+.btn:hover{
+    letter-spacing: 0.1rem;
+
 }
 
 .home-container {
     background: url("./imag/capapap.jpg");
-    height: 100vh;
     background-position: center;
     background-size: cover;
-    margin-top: 8rem;
+
 }
 
-.home-container section {
+.home-container section{
     display: flex;
     align-items: center;
-    min-height: calc(100vh - 8rem);
+    min-height: 100vh;
 }
 
 .content {
     max-width: 60rem;
+
 }
 
-.content h1 {
-    color: #fff;
-    font-size: 4.5rem;
-    margin-bottom: 2rem;
-    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.8);
-}
-
-.content h2 {
+.content h3 {
     color: #fff;
     font-size: 2.5rem;
-    margin-bottom: 3rem;
-    font-weight: 300;
-    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.8);
 }
 
 .content p {
     color: #fff;
-    font-size: 1.8rem;
-    font-weight: 300;
+    font-size: 3rem;
+    font-weight: 100;
     line-height: 1.8;
     padding: 1rem 0;
-    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.8);
+
 }
 
-.title {
+.title{
     font-size: 4rem;
-    color: var(--main-color);
+    color:  var(--main-color);
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
+.title span{
+    color: #fff;
+    text-transform: uppercase;
+}
 .sobre .row {
     display: flex;
     align-items: center;
     background-color: var(--black);
-    gap: 3rem;
-    border-radius: 1rem;
-    overflow: hidden;
+    gap: 1.5rem;
+
 }
 
-.sobre .container-img img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
 
 .sobre .row .content {
-    padding: 3rem;
-    flex: 1;
+    padding: 2rem;
 }
 
-.sobre .row .content h3 {
+.sobre .row .content h3{
     font-size: 3rem;
     color: #fff;
-    margin-bottom: 2rem;
+
 }
 
 .sobre .row .content p {
-    font-size: 1.7rem;
+    font-size:  1.6rem;
     color: #fff;
     padding: 1rem 0;
-    line-height: 1.8;
+    line-height:  1.8;
 }
+
 
 .menu .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
 }
 
 .menu .box-container .box {
     text-align: center;
     border: var(--border);
-    padding: 3rem;
+    padding: 5rem;
     cursor: pointer;
-    border-radius: 1rem;
-    background: var(--black);
-    transition: all 0.3s ease;
 }
 
+
 .menu .box-container .box img {
-    width: 100%;
-    max-width: 20rem;
-    height: auto;
-    margin: 0 auto 2rem;
-    border-radius: 0.5rem;
+    height: 10rem;
 }
 
 .menu .box-container .box h3 {
     color: #fff;
-    font-size: 2.2rem;
+    font-size: 2rem;
     padding: 1rem 0;
-    margin-bottom: 1rem;
 }
+
+
 
 .menu .box-container .box .price {
     color: #fff;
     font-size: 2.5rem;
     padding: 0.5rem;
-    font-weight: bold;
-    margin-bottom: 1.5rem;
 }
-
+  
 .menu .box-container .box .price span {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     text-decoration: line-through;
     font-weight: lighter;
-    color: #ccc;
-    margin-left: 1rem;
 }
 
 .menu .box-container .box:hover {
     background-color: #fff;
-    transform: translateY(-0.5rem);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
 }
 
-.menu .box-container .box:hover > * {
+.menu .box-container .box:hover>* {
     color: var(--black);
+
 }
 
-.menu .box-container .box:hover .price span {
-    color: #666;
-}
-
-.endereco {
+.endereco{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.endereco iframe {
-    border-radius: 1rem;
-    max-width: 100%;
-}
-
-.footer {
+.footer{
     text-align: center;
-    background: var(--black);
-    padding: 3rem 2rem;
+
 }
 
-.footer .share {
+.footer .share{
     padding: 1rem 0;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
 }
-
-.footer .share a {
-    display: inline-block;
+.footer .share img{
+    margin: 0.3rem;
+    cursor: pointer;
+    border: radius 50%;
     padding: 1rem;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-}
-
-.footer .share a:hover,
-.footer .share a:focus {
-    background: rgba(255, 255, 255, 0.1);
-    transform: scale(1.2);
-}
-
-/* ========== RESPONSIVO ========== */
-
-/* Tablet: 768px */
-@media (max-width: 768px) {
-    :root {
-        font-size: 9px;
-    }
-
-    .header section {
-        padding: 1rem 1.5rem;
-    }
-
-    /* Menu Hamburguer visível */
-    .menu-button {
-        display: flex;
-    }
-
-    /* Menu lateral */
-    .navbar {
-        position: fixed;
-        top: 8rem;
-        left: -100%;
-        width: 80%;
-        height: calc(100vh - 8rem);
-        background: var(--black);
-        flex-direction: column;
-        padding: 2rem;
-        transition: left 0.3s ease;
-        border-right: var(--border);
-    }
-
-    /* Quando o checkbox está checked, mostra o menu */
-    .menu-toggle:checked ~ .navbar {
-        left: 0;
-    }
-
-    /* Animação do botão hamburguer */
-    .menu-toggle:checked ~ .menu-button span:nth-child(1) {
-        transform: rotate(45deg) translate(0.6rem, 0.6rem);
-    }
-
-    .menu-toggle:checked ~ .menu-button span:nth-child(2) {
-        opacity: 0;
-    }
-
-    .menu-toggle:checked ~ .menu-button span:nth-child(3) {
-        transform: rotate(-45deg) translate(0.6rem, -0.6rem);
-    }
-
-    .navbar a {
-        padding: 1.5rem;
-        font-size: 2rem;
-        border-bottom: var(--border);
-    }
-
-    .home-container {
-        margin-top: 7rem;
-        height: 60vh;
-    }
-
-    .home-container section {
-        min-height: calc(60vh - 7rem);
-    }
-
-    .content h1 {
-        font-size: 3.5rem;
-    }
-
-    .content h2 {
-        font-size: 2rem;
-    }
-
-    .sobre .row {
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .sobre .container-img {
-        width: 100%;
-    }
-
-    .sobre .row .content {
-        padding: 2rem;
-    }
-
-    .menu .box-container {
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-        gap: 1.5rem;
-    }
-
-    .menu .box-container .box {
-        padding: 2rem;
-    }
-}
-
-/* Mobile: 375px */
-@media (max-width: 375px) {
-    :root {
-        font-size: 8px;
-    }
-
-    .header section {
-        padding: 0.8rem 1rem;
-    }
-
-    .logotipo img {
-        max-width: 10rem;
-    }
-
-    .home-container {
-        height: 50vh;
-        margin-top: 6rem;
-    }
-
-    .content h1 {
-        font-size: 2.8rem;
-    }
-
-    .content h2 {
-        font-size: 1.8rem;
-    }
-
-    .title {
-        font-size: 3rem;
-    }
-
-    section {
-        padding: 2rem 1rem;
-    }
-
-    .menu .box-container {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
-    .menu .box-container .box {
-        padding: 1.5rem;
-    }
-
-    .btn {
-        padding: 1rem 2rem;
-        font-size: 1.5rem;
-    }
-
-    .footer .share {
-        gap: 1rem;
-    }
-}
-
-/* Desktop Grande: 1920px */
-@media (min-width: 1920px) {
-    :root {
-        font-size: 12px;
-    }
-
-    section {
-        max-width: 140rem;
-    }
-
-    .menu .box-container {
-        grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
-        gap: 3rem;
-    }
-}
-
-/* Acessibilidade - Alto Contraste */
-@media (prefers-contrast: high) {
-    .btn {
-        background: #000;
-        color: #fff;
-        border: 0.2rem solid #fff;
-    }
-
-    .navbar a:hover,
-    .navbar a:focus {
-        background: #000;
-        color: #fff;
-    }
-}
-
-/* Redução de Movimento */
-@media (prefers-reduced-motion: reduce) {
-    * {
-        transition: none !important;
-        animation: none !important;
-    }
-    
-    .btn:hover,
-    .btn:focus {
-        transform: none;
-    }
-    
-    .menu .box-container .box:hover {
-        transform: none;
-    }
 }
