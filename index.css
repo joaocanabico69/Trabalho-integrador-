@@ -124,6 +124,12 @@ section {
 .title span {
     color: #fff;
     text-transform: uppercase;
+    .title span {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem; 
+    font-weight: inherit; 
+}
 }
 
 .sobre .row {
@@ -197,6 +203,12 @@ section {
     align-items: center;
     flex-direction: column;
     text-transform: uppercase;
+    .title span {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem; /* garante o mesmo tamanho */
+    font-weight: inherit; /* mantém o estilo */
+}
 }
 
 .footer {
