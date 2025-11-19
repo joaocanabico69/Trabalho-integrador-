@@ -98,8 +98,6 @@ docs/testes-navegadores/
 docs/testes-responsividade/
 ```
 
-(Se ainda não adicionou, tire prints e coloque depois.)
-
 ---
 
 ##👩‍🦰 Reflexão Individual — Franciny
@@ -134,5 +132,3 @@ O projeto evoluiu desde o protótipo até o site publicado. Dividimos tarefas de
 
 ---
 
-## 📅 Data de Publicação
-- (adicione aqui)
