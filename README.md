@@ -82,11 +82,10 @@ Trabalho-integrador-/
 - Firefox  
 
 ### **Responsividade**
-- 375px (mobile pequeno)  
-- 390px (mobile médio)  
-- 768px (tablet)  
-- 1280px (notebook)  
-- 1920px (desktop)  
+- 375x667  
+- 390x844 
+- 768x1024
+- 1280x720
 
 **Resultado:**  
 Site funcional em todas as telas após ajustes.
