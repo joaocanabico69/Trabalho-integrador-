@@ -52,6 +52,7 @@ Trabalho-integrador-/
 - Escolha do negócio  
 - Identidade visual  
 - Protótipo / Wireframe no Figma  
+https://www.figma.com/design/IgwP0aHFs1sQx6bR3TfBfG/Caf%C3%A9-e-um-ch%C3%AAro?node-id=0-1&p=f&t=NJL05g60LBWMorC3-0
 
 ### **Parte 2 — Desenvolvimento**
 - Criação do HTML (Home, Menu, Sobre, Endereço)  
