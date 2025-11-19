@@ -8,8 +8,9 @@ Este projeto foi desenvolvido como parte do **Projeto Integrador** da disciplina
 ---
 
 ## 👥 Integrantes
-- **João Vitor Rodrigues** — Front-end, Design, Estrutura
-- **Franciny** — Conteúdo, Organização, Documentação
+- **João Vitor Rodrigues** 
+- **Franciny** 
+— Conteúdo, Organização, Documentação — Front-end, Design, Estrutura. ambos trabalharam juntos. 
 
 ---
 
@@ -71,7 +72,6 @@ Trabalho-integrador-/
 - Estrutura reorganizada para o GitHub Pages  
 - Correções de responsividade (seção SOBRE e MENU)  
 - Ajuste de âncoras para evitar corte no topo  
-- Preparação para Lazy Loading (opcional)
 
 ---
 
@@ -79,14 +79,13 @@ Trabalho-integrador-/
 
 ### **Navegadores testados**
 - Google Chrome  
-- Microsoft Edge  
+- Firefox  
 
 ### **Responsividade**
-- 375px (mobile pequeno)  
-- 390px (mobile médio)  
-- 768px (tablet)  
-- 1280px (notebook)  
-- 1920px (desktop)  
+- 375x667  
+- 390x844 
+- 768x1024
+- 1280x720
 
 **Resultado:**  
 Site funcional em todas as telas após ajustes.
@@ -98,16 +97,14 @@ docs/testes-navegadores/
 docs/testes-responsividade/
 ```
 
-(Se ainda não adicionou, tire prints e coloque depois.)
-
 ---
 
-## 🧍‍♂️ Reflexão Individual — João Vitor Rodrigues
+##👩‍🦰 Reflexão Individual — Franciny
 Durante o projeto, aprendi a resolver problemas reais de publicação, responsividade e caminhos de arquivos. Entendi melhor como organizar pastas e como testar em diferentes dispositivos. O principal desafio foi corrigir erros ao publicar no GitHub Pages, mas isso me deu mais segurança para futuros projetos. Aprendi também a importância da responsividade no dia a dia do desenvolvimento.
 
 ---
 
-## 👩‍🦰 Reflexão Individual — Franciny
+##🧍‍♂️ Reflexão Individual — João Vitor Rodrigues
 Contribuí com revisão de conteúdo e organização da documentação. Aprendi sobre estrutura de projetos web e como funciona o processo de publicação. O desafio foi sincronizar conteúdo, mas o trabalho em dupla facilitou o processo e tornou tudo mais leve.
 
 ---
@@ -134,5 +131,3 @@ O projeto evoluiu desde o protótipo até o site publicado. Dividimos tarefas de
 
 ---
 
-## 📅 Data de Publicação
-- (adicione aqui)
