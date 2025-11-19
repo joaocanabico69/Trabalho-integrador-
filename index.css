@@ -253,3 +253,36 @@ section {
         font-size: 1.4rem;
     }
 }
+/* RESPONSIVIDADE PARA A HOME EM TELAS PEQUENAS */
+@media (max-width: 480px) {
+    
+    .home-container section {
+        padding: 2rem;
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-container .content {
+        max-width: 90%;
+        background: rgba(0, 0, 0, 0.4); /* fundo suave para melhorar leitura */
+        padding: 1.5rem;
+        border-radius: 8px;
+    }
+
+    .home-container .content h3 {
+        font-size: 1.6rem;
+        line-height: 1.4;
+    }
+
+    .home-container .content p {
+        font-size: 1.4rem;
+        line-height: 1.6;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+        padding: 0.8rem 2rem;
+    }
+}
