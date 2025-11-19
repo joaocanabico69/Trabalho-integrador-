@@ -1,114 +1,138 @@
-# 📌 Projeto Integrador — Cafeteria *Café e um Chêro*
+# ☕ Projeto Integrador — **Café e um Chêro**
 
-Este projeto foi desenvolvido como parte do **Projeto Integrador**, com o objetivo de criar o site institucional oficial da cafeteria real **“Café e um Chêro”**, incluindo identidade visual, protótipo, desenvolvimento, publicação e documentação técnica.
+**Site publicado:**  
+➡️ https://joaorodrigues69.github.io/Trabalho-integrador-/
 
----
-
-## 👥 Integrantes da Dupla
-- **João Vitor Rodrigues** — Designer e Desenvolvimento Front-End  
-- **Franciny** — Organização, Conteúdo e Estrutura do Projeto
+Este projeto foi desenvolvido como parte do **Projeto Integrador** da disciplina. Criamos o site oficial da cafeteria **Café e um Chêro**, com identidade visual, cardápio, informações do negócio e localização.
 
 ---
 
-## ☕ Sobre o Negócio  
-O **Café e um Chêro** é uma **cafeteria real**, reconhecida por proporcionar uma experiência sensorial única.  
-A proposta do negócio é unir aroma, sabor e afeto em um ambiente acolhedor, trazendo:
-
-- Cafés especiais  
-- Bebidas artesanais  
-- Pães, bolos e salgados  
-- Atmosfera tranquila e convidativa  
-- Identidade regional marcada pelo “chêro”, símbolo de carinho e proximidade  
-
-O site foi criado para fortalecer a presença digital da cafeteria, apresentar cardápio, comunicação visual e localização.
+## 👥 Integrantes
+- **João Vitor Rodrigues** — Front-end, Design, Estrutura
+- **Franciny** — Conteúdo, Organização, Documentação
 
 ---
 
-# 🎨 Parte 1 — Planejamento e Wireframe
-Foram definidos:
-
-- Identidade e posicionamento da cafeteria  
-- Paleta de cores e estilo visual  
-- Público-alvo  
-- Protótipo completo no Figma  
-- Layout e estrutura das seções
-
-**Link do Figma (Wireframe):**  
-https://www.figma.com/design/IgwP0aHFs1sQx6bR3TfBfG/Caf%C3%A9-e-um-ch%C3%AAro?node-id=0-1&p=f&t=DSCCexfrlJO8Werd-0
+## 📌 Sobre o Negócio
+O **Café e um Chêro** é uma cafeteria real, conhecida pelo aroma marcante do café fresco, ambiente acolhedor e cardápio variado. O objetivo do site é apresentar a identidade da marca e facilitar o acesso às informações principais.
 
 ---
 
-# 💻 Parte 2 — Desenvolvimento do Site
-
-### Tecnologias utilizadas:
+## 🛠 Tecnologias Utilizadas
 - HTML5  
 - CSS3  
-- Google Fonts  
-- Ícones Icons8  
-- Git e GitHub
-
-### Seções implementadas:
-- Home  
-- Menu  
-- Sobre Nós  
-- Localização (Google Maps)  
-- Footer com redes sociais  
-- Navegação por âncoras
+- Google Fonts (Roboto)  
+- Icons8  
+- Git & GitHub  
+- GitHub Pages (para publicação do site)
 
 ---
 
-# 🌐 Parte 3 — Publicação e Otimização
-
-## ✔️ Publicação
-O site será hospedado em **GitHub Pages**.  
-Assim que o link for gerado, será adicionado abaixo:
-
-🔗 **Link do site publicado:**  
-*(Adicione aqui depois do deploy)*
-
----
-
-## 🧹 Otimizações Implementadas
-- Organização da estrutura do projeto  
-- Correção de caminhos e links internos  
-- Ajustes de IDs nas âncoras  
-- Otimização de carregamento  
-- Preparação para versão final no GitHub Pages  
-
----
-
-# 📁 Estrutura Final do Projeto
-
+## 📂 Estrutura do Projeto
 ```
 Trabalho-integrador-/
-│
 ├── index.html
-├── css/
-│   └── index.css
+├── index.css
 ├── imag/
-│   └── (imagens usadas no site)
+│   └── imagens utilizadas no site
 ├── docs/
-│   └── rubrica TRABALHO INTEGRADOR.docx
+│   ├── reflexoes/
+│   ├── testes-navegadores/
+│   ├── testes-responsividade/
+│   └── avaliacoes/
 └── README.md
 ```
 
 ---
 
-# 🧪 Testes Realizados
+## 📘 Resumo das 3 Partes do Projeto
 
-### ✔️ Navegadores
+### **Parte 1 — Planejamento**
+- Escolha do negócio  
+- Identidade visual  
+- Protótipo / Wireframe no Figma  
+
+### **Parte 2 — Desenvolvimento**
+- Criação do HTML (Home, Menu, Sobre, Endereço)  
+- Aplicação de layout, cores e fontes  
+- Organização das pastas  
+
+### **Parte 3 — Publicação e Testes**
+- Correção de caminhos  
+- Ajustes de responsividade  
+- Publicação no GitHub Pages  
+- Testes em resoluções e navegadores  
+- Documentação final
+
+---
+
+## ⚙️ Otimizações Realizadas
+- Ajuste do caminho do CSS e imagens  
+- Estrutura reorganizada para o GitHub Pages  
+- Correções de responsividade (seção SOBRE e MENU)  
+- Ajuste de âncoras para evitar corte no topo  
+- Preparação para Lazy Loading (opcional)
+
+---
+
+## 🧪 Testes Realizados
+
+### **Navegadores testados**
 - Google Chrome  
 - Microsoft Edge  
 
-### ✔️ Responsividade
-Testado nas resoluções:
-- 360px (mobile)
-- 375px (iPhone)
-- 768px (tablet)
-- 1280px (notebook)
-- 1920px (desktop)
+### **Responsividade**
+- 375px (mobile pequeno)  
+- 390px (mobile médio)  
+- 768px (tablet)  
+- 1280px (notebook)  
+- 1920px (desktop)  
 
-### ✔️ Teste prático
-- Links funcionando  
-- Navegação suave  
-- Imagens carregand
+**Resultado:**  
+Site funcional em todas as telas após ajustes.
+
+### **Pasta de evidências:**
+As capturas de tela foram adicionadas em:
+```
+docs/testes-navegadores/
+docs/testes-responsividade/
+```
+
+(Se ainda não adicionou, tire prints e coloque depois.)
+
+---
+
+## 🧍‍♂️ Reflexão Individual — João Vitor Rodrigues
+Durante o projeto, aprendi a resolver problemas reais de publicação, responsividade e caminhos de arquivos. Entendi melhor como organizar pastas e como testar em diferentes dispositivos. O principal desafio foi corrigir erros ao publicar no GitHub Pages, mas isso me deu mais segurança para futuros projetos. Aprendi também a importância da responsividade no dia a dia do desenvolvimento.
+
+---
+
+## 👩‍🦰 Reflexão Individual — Franciny
+Contribuí com revisão de conteúdo e organização da documentação. Aprendi sobre estrutura de projetos web e como funciona o processo de publicação. O desafio foi sincronizar conteúdo, mas o trabalho em dupla facilitou o processo e tornou tudo mais leve.
+
+---
+
+## 👥 Reflexão da Dupla
+O projeto evoluiu desde o protótipo até o site publicado. Dividimos tarefas de forma equilibrada. Aprendemos a usar GitHub Pages, corrigir erros e revisar juntos até chegar no resultado final. A experiência contribuiu para nosso entendimento de criação de sites reais.
+
+---
+
+## 🚀 Próximos Passos / Melhorias Futuras
+- Converter imagens para WebP  
+- Implementar carrinho funcional com JavaScript  
+- Melhorar acessibilidade geral  
+- Criar página “Contato” adicional  
+- Adicionar animações suaves  
+
+---
+
+## ✔️ Créditos
+- Google Fonts  
+- Icons8  
+- Imagens cedidas / livres de direitos  
+- Professora pela orientação
+
+---
+
+## 📅 Data de Publicação
+- (adicione aqui)
