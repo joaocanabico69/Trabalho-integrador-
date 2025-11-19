@@ -85,8 +85,8 @@ section {
 }
 
 .home-container {
-    /* CORREÇÃO AQUI — caminho da imagem */
-    background: url("../imag/home-img.jpg") no-repeat center center;
+    
+    background: url("imag/home-img.jpg") no-repeat center center;
     background-size: cover;
 }
 
