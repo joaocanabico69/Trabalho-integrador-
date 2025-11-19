@@ -86,7 +86,7 @@ display: inline-block;
 }
 
 .home-container {
-    background: url("./image/home-image.jpg") no-repeat;
+    background: url(./imag/home-img.jpg) no-repeat;
     background-position: center;
     background-size: cover;
 
